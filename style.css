@@ -49,7 +49,7 @@ font-family: var( --paragraph-font-family);
 .index-background-color{
     background: #F9F7FE;
     margin: 30px;
-    padding: 160px 20px;
+    padding: 40px 20px;
     border-radius: 3px;
 }
 .navigation-links {
