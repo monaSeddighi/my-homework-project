@@ -101,6 +101,9 @@ font-family: var( --paragraph-font-family);
 .email-link:hover {
     text-decoration: underline;
 }
+.about-section{
+    padding: 40px 20px;
+}
 
 .about-section h1{
     font-size: 64px;
@@ -117,6 +120,8 @@ font-family: var( --paragraph-font-family);
     font-size: 16px;
 font-family: var(--paragraph-font-family);
 }
+.about-section-content{
+    margin: 30px;}
 
 
 @media (max-width: 900px) {
@@ -145,6 +150,9 @@ font-family: var(--paragraph-font-family);
                                                                                   
                                                                                     padding: 30px 10px;
                                                                                 }
+                                                                                                                                                                .about-section {
+                                                                                                                                                                    text-align: center;
+                                                                                                                                                                }
       }
     
 
