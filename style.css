@@ -29,6 +29,7 @@ h2, .work-page-heading {
     font-size: 36px;
 font-family: var(--heading-font-family);
 font-weight: bold;
+    color: black;
 }
 
 h3 {
@@ -115,9 +116,9 @@ font-family: var(--paragraph-font-family);
 
 .content .work-page-heading{
 font-size: 24px;
-    color: black;
     line-height: 1.5;
         font-family: var(--paragraph-font-family);
+    margin: 20px 0 0;
 }
 .content p{
 font-size: 14px;
