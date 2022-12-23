@@ -152,6 +152,7 @@ font-family: var(--paragraph-font-family);
                                                                                 }
                                                                                                                                                                 .about-section {
                                                                                                                                                                     text-align: center;
+                                                                                                                                                                    padding: 0;
                                                                                                                                                                 }
       }
     
