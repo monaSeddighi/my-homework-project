@@ -90,14 +90,6 @@ font-family: var( --paragraph-font-family);
     display: block;
 }
 
-.about-paragraphs {
-    margin: 30px 0;
-}
-
-.about-paragraphs p {
-    margin: 10px;
-}
-
 .email-link {
     display: flex;
     justify-content: center;
@@ -110,7 +102,21 @@ font-family: var( --paragraph-font-family);
     text-decoration: underline;
 }
 
+.about-section h1{
+    font-size: 64px;
+    line-height: 80px;
+}
 
+.about-section h2 {
+    font-size: 18px;
+    font-family: var(--paragraph-font-family);
+    font-weight: bold;
+}
+
+.about-section p {
+    font-size: 16px;
+font-family: var(--paragraph-font-family);
+}
 
 
 @media (max-width: 900px) {
