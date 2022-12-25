@@ -110,13 +110,18 @@ font-family: var(--paragraph-font-family);
     font-family: var(--paragraph-font-family);
     font-weight: bold;
 }
+.content-container.container{
+padding-top: 15px;
+}
 
 .content-container p {
     font-size: 16px;
 font-family: var(--paragraph-font-family);
+
 }
 .content{
     margin: 30px;
+    
 }
 
 .content .work-page-heading{
@@ -136,7 +141,7 @@ font-size: 14px;
 nav{
     padding: 20px 0;
     font-family: var(--paragraph-font-family);
-        font-weight: 500;
+        font-weight: 400;
         font-size: 16px;
 }
 
@@ -152,14 +157,12 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    color:#272142
+    color:#272142;
+  transition: all 100ms ease-in-out;
 }
-nav li.active a {
+
+nav a:hover, nav li.active a{
     color: var(--primary-color);
-}
-nav a:hover{
-    color: var(--primary-color);
-    transition:all 100ms ease-in-out;
 }
 
 footer{
