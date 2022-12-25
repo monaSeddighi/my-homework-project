@@ -38,10 +38,18 @@ font-family: var( --paragraph-font-family);
  color: #272142;
 }
 
+h5{
+ font-size: 24px;
+font-family: var(--paragraph-font-family);
+ font-weight: normal;
+ color: #272142;
+opacity: 0.9;
+}
+
 p {
     font-size: 16px;
     line-height: 30px;
-font-family: var( --paragraph-font-family);
+font-family: var(--paragraph-font-family);
     font-weight: normal;
 }
 
@@ -117,12 +125,16 @@ font-size: 24px;
     line-height: 1.5;
         font-family: var(--paragraph-font-family);
     margin: 20px 0 0;
+        color: black;
 }
 .content p{
 font-size: 14px;
 }
 footer{
     margin: 60px 0;
+}
+footer .contact-box{
+    
 }
 
 footer .email-link{
