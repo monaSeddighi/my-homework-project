@@ -111,7 +111,7 @@ font-family: var(--paragraph-font-family);
     font-weight: bold;
 }
 .content-container.container{
-padding-top: 15px;
+padding-top: 10px;
 }
 
 .content-container p {
