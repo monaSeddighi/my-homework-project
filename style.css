@@ -54,7 +54,7 @@ font-family: var(--paragraph-font-family);
 
 .index-background-color{
     background: #F9F7FE;
-    margin: 30px;
+    margin: 0 30px ;
     padding: 40px 20px;
     border-radius: 3px;
 }
@@ -135,6 +135,9 @@ font-size: 14px;
 }
 nav{
     padding: 20px 0;
+    font-family: var(--paragraph-font-family);
+        font-weight: 500;
+        font-size: 16px;
 }
 
 nav ul{
@@ -145,7 +148,20 @@ nav li{
     display: inline;
     list-style: none;
     line-height: 42px;
+    margin-left: 15px;
 }
+nav a{
+    text-decoration: none;
+    color:#272142
+}
+nav li.active a {
+    color: var(--primary-color);
+}
+nav a:hover{
+    color: var(--primary-color);
+    transition:all 100ms ease-in-out;
+}
+
 footer{
     margin: 60px 0;
 }
